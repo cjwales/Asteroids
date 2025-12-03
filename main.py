@@ -23,8 +23,8 @@ def main():
         
         updatable.update(dt)
         screen.fill("black")
-        for drawing in drawable:
-            drawing.draw(screen)
+        for thing in drawable:
+            thing.draw(screen)
         #player.draw(screen)
         pygame.display.flip()
         
